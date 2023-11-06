@@ -49,16 +49,16 @@ function rand(limit) {
 
 // -------------------- DO NOT CHANGE THE CODE BELOW ---------------------- //
 
-let fahren = prompt(
+let fahren = parseFloat(prompt(
   "enter a number, we will convert that number from fahrenheit to celcius"
-);
+));
 let celc = convertToCelsius(fahren);
 let output = createMessage(fahren, celc);
 console.log(output);
 
-fahren = prompt(
+fahren = parseFloat(prompt(
   "Lets try that again. enter a number, we will convert that number from fahrenheit to celcius"
-);
+));
 celc = convertToCelsius(fahren);
 output = createMessage(fahren, celc);
 console.log(output);
